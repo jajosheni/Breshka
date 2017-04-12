@@ -8,6 +8,6 @@ setup(name="puzzle",
       version="0.1",
       description="Funny",
       options = {'build_exe' : {'include_files' : include_files}},
-      executables = [Executable("client.py", base = base)]
+      executables = [Executable("Klient.py", base = base)]
       )
 
