@@ -63,6 +63,8 @@ def fillo_breshken():
         cmd = input('breshka> ')
         if cmd == 'mbyll':
             print("Programi u mbyll")
+            s.socket.shutdown(2)
+            s.socket.close()
             sys.exit()
         if cmd == 'listo':
             shfaq_lidhjet()
