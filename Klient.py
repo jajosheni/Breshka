@@ -9,7 +9,7 @@ import time
 #hiqe komentin nga print jo per sherr, komentoje per sherr
 
 s = socket.socket()
-host = '10.20.1.43'
+host = '10.0.0.2' #adressa e serverit
 port = 9999
 
 
